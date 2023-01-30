@@ -1,0 +1,64 @@
+/*body {
+  font-family: Poppins, sans-serif;
+  
+}
+*/
+
+#navbar{
+    position: fixed;
+    top:0;
+    left:0;
+    height:10vh;
+    width:100%;
+    background-color:blue;
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    align-items:center;
+  }
+  #navbar ul li a{
+    color:white;
+    text-decoration: none;
+  }
+  /*
+  #navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #BE3145;
+    width: 100%;
+  }
+  
+  #navbar-link {
+    display: flex;
+    justify-content: Flex-end;
+  }
+  
+  */
+  @media screen (width:200) {
+    body {
+      font-size: 10px; 
+    }
+    }
+  
+  #welcome-section {
+    height: 100vh}
+  nav{
+    display:fixed; }
+  
+  #welcome-section{
+    background-color: green;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+  }
+  
+  /*
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  *?
